@@ -62,12 +62,6 @@
       display-name = "Windows Select All";
   };
 
-  Win_Undo: Windows_Undo {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp LC(Z)>;
-    display-name = "Windows Undo";
-  };
 
   Win_Desktop: Win_Desk {
     compatible = "zmk,behavior-macro";
